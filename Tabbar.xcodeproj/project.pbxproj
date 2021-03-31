@@ -16,6 +16,9 @@
 		99DE73AA26148BC0000C4DF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99DE73A826148BC0000C4DF5 /* LaunchScreen.storyboard */; };
 		99DE73B526148BC0000C4DF5 /* TabbarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DE73B426148BC0000C4DF5 /* TabbarTests.swift */; };
 		99DE73C026148BC0000C4DF5 /* TabbarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DE73BF26148BC0000C4DF5 /* TabbarUITests.swift */; };
+		99DE73D326148C2D000C4DF5 /* BottomBarItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DE73D026148C2D000C4DF5 /* BottomBarItemView.swift */; };
+		99DE73D426148C2D000C4DF5 /* BottomBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DE73D126148C2D000C4DF5 /* BottomBarItem.swift */; };
+		99DE73D526148C2D000C4DF5 /* BottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DE73D226148C2D000C4DF5 /* BottomBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		99DE73BB26148BC0000C4DF5 /* TabbarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabbarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99DE73BF26148BC0000C4DF5 /* TabbarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarUITests.swift; sourceTree = "<group>"; };
 		99DE73C126148BC0000C4DF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99DE73D026148C2D000C4DF5 /* BottomBarItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomBarItemView.swift; sourceTree = "<group>"; };
+		99DE73D126148C2D000C4DF5 /* BottomBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomBarItem.swift; sourceTree = "<group>"; };
+		99DE73D226148C2D000C4DF5 /* BottomBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,9 @@
 				99DE739A26148BB6000C4DF5 /* AppDelegate.swift */,
 				99DE739C26148BB6000C4DF5 /* SceneDelegate.swift */,
 				99DE739E26148BB6000C4DF5 /* ContentView.swift */,
+				99DE73D226148C2D000C4DF5 /* BottomBar.swift */,
+				99DE73D126148C2D000C4DF5 /* BottomBarItem.swift */,
+				99DE73D026148C2D000C4DF5 /* BottomBarItemView.swift */,
 				99DE73A326148BC0000C4DF5 /* Assets.xcassets */,
 				99DE73A826148BC0000C4DF5 /* LaunchScreen.storyboard */,
 				99DE73AB26148BC0000C4DF5 /* Info.plist */,
@@ -270,9 +279,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				99DE739B26148BB6000C4DF5 /* AppDelegate.swift in Sources */,
+				99DE73D426148C2D000C4DF5 /* BottomBarItem.swift in Sources */,
 				99DE739D26148BB6000C4DF5 /* SceneDelegate.swift in Sources */,
 				99DE739F26148BB6000C4DF5 /* ContentView.swift in Sources */,
+				99DE73D526148C2D000C4DF5 /* BottomBar.swift in Sources */,
 				99DE73A226148BB6000C4DF5 /* Tabbar.xcdatamodeld in Sources */,
+				99DE73D326148C2D000C4DF5 /* BottomBarItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
